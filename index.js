@@ -47,4 +47,4 @@ client.on('message', async message =>{
 })
 
 
-client.login(process.eventNames.TOKEN)
+client.login(process.env.TOKEN)
